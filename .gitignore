@@ -43,4 +43,6 @@ app.*.map.json
 /android/app/release
 
 # id
-**/strings.xml
+*.xml
+!styles.xml
+!AndroidManifest.xml
