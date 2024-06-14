@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
-void main() async {
+void main() {
   runApp(MyApp());
 }
 
