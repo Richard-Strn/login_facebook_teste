@@ -1,19 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
-void main() async {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: HomeScreen(),
-    );
-  }
-}
-
 class HomeScreen extends StatefulWidget {
   @override
   _Facebook createState() => _Facebook();
